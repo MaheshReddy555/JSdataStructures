@@ -1,3 +1,8 @@
+// BFS is better when target is closer to Source.
+// DFS is better when target is far from source.
+// As BFS considers all neighbour so it is not suitable for decision tree used in puzzle games.
+// DFS is more suitable for decision tree.
+
 class Node {
   constructor(value) {
     this.value = value;
